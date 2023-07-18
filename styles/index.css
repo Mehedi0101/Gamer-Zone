@@ -13,6 +13,28 @@ body{
     color:#FF42A5;
 }
 
+.secondary-heading{
+    font-size: 3rem;
+}
+
+.btn-primary{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 30px;
+    background: #FF42A5;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.2s ease-out;
+}
+
+.btn-primary:hover{
+    background: white;
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+}
+
 /* navigation bar styles */
 .nav-container{
     padding: 2% 12.5%;
@@ -67,4 +89,73 @@ body{
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
+}
+
+
+/* banner styles */
+.banner-container{
+    padding: 0% 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.banner-text{
+    width: 50%;
+    background-image: url("../images/Group\ 14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-text h2{
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0B0223;
+}
+
+.banner-text h1{
+    font-size: 5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.banner-text p{
+    display: flex;
+    align-items: center;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.banner-text p img{
+    margin-right: 1%;
+}
+
+.banner-text button{
+    margin: 5% 4% 0% 0%;
+}
+
+.banner-text button:last-child{
+    background-color: #4EC5F7;
+}
+
+.banner-text button:last-child:hover{
+    color: #4EC5F7;
+    border: 2px solid #4EC5F7;
+    background-color: white;
+}
+
+.banner-img-container{
+    width: 50%;
+}
+
+.banner-img-container img{
+    width: 100%;
 }
