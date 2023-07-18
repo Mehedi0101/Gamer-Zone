@@ -1,0 +1,48 @@
+ /* extra large device */
+@media screen and (max-width:1200px) {
+    .menu-container{
+        width: 55%;
+    }
+}
+
+/* large device */
+@media screen and (max-width:992px) {
+    :root{
+        font-size: 15px;
+    }
+
+    .menu-container{
+        width: 60%;
+    }
+}
+
+/* medium device */
+@media screen and (max-width:768px) {
+    :root{
+        font-size: 14px;
+    }
+
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .menu-container{
+        width: 100%;
+        margin-top: 3%;
+    }
+}
+
+/* small device */
+@media screen and (max-width:576px) {
+    :root{
+        font-size: 12px;
+    }
+
+    .menu-container{
+        margin-top:7%;
+    }
+
+    .menu-container ul{
+        flex-direction: column;
+    }
+}
