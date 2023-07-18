@@ -24,6 +24,7 @@
 
     .nav-container{
         flex-direction: column;
+        margin-top: 3%;
     }
 
     .menu-container{
@@ -36,6 +37,10 @@
 @media screen and (max-width:576px) {
     :root{
         font-size: 12px;
+    }
+
+    .nav-container{
+        margin-top: 5%;
     }
 
     .menu-container{
