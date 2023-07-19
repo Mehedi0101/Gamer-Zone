@@ -71,11 +71,11 @@
         font-size: 3.5rem;
     }
 
-    .gamers-container,.instant-play-container{
+    .gamers-container,.instant-play-container,.online-game-container{
         flex-direction: column;
     }
 
-    .gamers-text,.instant-play-text{
+    .gamers-text,.instant-play-text,.online-game-text{
         width: 80%;
         margin: 0 auto;
         text-align: center;
@@ -85,12 +85,16 @@
         margin: 5% auto;
     }
 
+    .online-game-text p {
+        margin: 5% auto;
+    }
+
     .gamers-img{
         width: 80%;
         margin: 0 auto;
     }
 
-    .instant-play-img-container{
+    .instant-play-img-container,.online-game-img-container{
         width: 60%;
         margin: 0 auto;
     }

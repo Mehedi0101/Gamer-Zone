@@ -283,31 +283,46 @@ body{
     line-height: 22px;
 }
 
-/* instant play styles */
-.instant-play-container{
+/* instant play styles AND online game section */
+.instant-play-container, .online-game-container{
     padding: 0 12.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.instant-play-text{
+.online-game-container{
+    margin-top: 10%;
+    flex-direction: row-reverse;
+}
+
+.instant-play-text, .online-game-text{
     width: 40%;
+}
+
+.instant-play-text{
     text-align: right;
 }
 
-.instant-play-text p{
+.online-game-text{
+    text-align: left;
+}
+
+.instant-play-text p, .online-game-text p{
     width: 70%;
-    margin-left: auto;
     margin-top: 2%;
 }
 
-.instant-play-img-container{
+.instant-play-text p{
+    margin-left: auto;
+}
+
+.instant-play-img-container, .online-game-img-container{
     width: 40%;
     position: relative;
 }
 
-.instant-play-img img{
+.instant-play-img img, .online-game-img img{
     width: 100%;
 }
 
@@ -318,4 +333,11 @@ body{
     position: absolute;
     left: -25%;
     bottom: -10%;
+}
+
+.online-game-img:last-child{
+    width: 50%;
+    position: absolute;
+    right: -25%;
+    bottom: -15%;
 }
