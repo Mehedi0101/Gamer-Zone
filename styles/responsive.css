@@ -237,6 +237,11 @@
         padding: 5px 10px;
     }
 
+    .footer-menu{
+        width: 70%;
+        margin: 10% auto;
+    }
+
     .settings{
         width: 60%;
     }
@@ -246,7 +251,7 @@
 /* extra small device */
 @media screen and (max-width:375px) {
     .categories-container {
-        grid-template-columns: 0.7fr;
+        grid-template-columns: 0.8fr;
         justify-content: center;
         text-align: center;
     }
