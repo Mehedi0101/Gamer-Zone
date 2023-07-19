@@ -282,3 +282,40 @@ body{
     font-weight: 500;
     line-height: 22px;
 }
+
+/* instant play styles */
+.instant-play-container{
+    padding: 0 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instant-play-text{
+    width: 40%;
+    text-align: right;
+}
+
+.instant-play-text p{
+    width: 70%;
+    margin-left: auto;
+    margin-top: 2%;
+}
+
+.instant-play-img-container{
+    width: 40%;
+    position: relative;
+}
+
+.instant-play-img img{
+    width: 100%;
+}
+
+
+
+.instant-play-img:last-child{
+    width: 50%;
+    position: absolute;
+    left: -25%;
+    bottom: -10%;
+}

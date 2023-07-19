@@ -71,18 +71,27 @@
         font-size: 3.5rem;
     }
 
-    .gamers-container{
+    .gamers-container,.instant-play-container{
         flex-direction: column;
     }
 
-    .gamers-text{
+    .gamers-text,.instant-play-text{
         width: 80%;
         margin: 0 auto;
         text-align: center;
     }
 
+    .instant-play-text p{
+        margin: 5% auto;
+    }
+
     .gamers-img{
         width: 80%;
+        margin: 0 auto;
+    }
+
+    .instant-play-img-container{
+        width: 60%;
         margin: 0 auto;
     }
 
