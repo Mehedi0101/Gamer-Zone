@@ -435,3 +435,68 @@ body{
     font-size: 0.9rem;
     font-weight: 600;
 }
+
+/* footer style */
+footer{
+    padding: 5% 0;
+    background-color: #0B0223;
+}
+.footer-title{
+    display: flex;
+    margin-bottom: 3%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-menu{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-icons{
+    width: 30%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons img{
+    width: 70%;
+}
+
+.settings{
+    width: 45%;
+    margin: 0 auto 2%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.settings a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+footer > p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500; 
+}
