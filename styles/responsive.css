@@ -13,6 +13,7 @@
 
     .menu-container{
         width: 60%;
+        margin-bottom: 5%;
     }
 }
 
@@ -38,7 +39,16 @@
 
     .banner-img-container{
         width: 80%;
-        margin-bottom: 15%;
+        margin: 0% auto 15%;
+    }
+
+    .banner-text-container{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .banner-text{
+        width: 50%;
     }
 
     .banner-text h2{

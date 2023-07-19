@@ -36,7 +36,12 @@ body{
 }
 
 /* navigation bar styles */
+.nav{
+
+}
 .nav-container{
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 2% 12.5%;
     display: flex;
     justify-content: space-between;
@@ -94,15 +99,17 @@ body{
 
 /* banner styles */
 .banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0% 12.5%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* background-color: aquamarine; */
 }
 
-.banner-text{
+.banner-text-container{
     width: 50%;
+    display: flex;
+    align-items: center;
     background-image: url("../images/Group\ 14.png");
     background-position: center;
     background-size: cover;
