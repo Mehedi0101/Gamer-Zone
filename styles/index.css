@@ -398,3 +398,40 @@ body{
 .career-img img{
     width: 100%;
 }
+
+/* categories style */
+.categories-container{
+    margin: 5% 0%;
+    padding: 0% 12.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.categories-container button{
+    padding: 8px 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: #0B0223;
+    transition: all 0.2s ease-out;
+}
+
+.categories-container button:hover{
+    color: #FF42A5;
+    background-color: white;
+    border: 2px solid #FF42A5;
+    cursor: pointer;
+}
+
+.categories-container img{
+    width: 40px;
+}
+
+.categories-container p{
+    font-size: 0.9rem;
+    font-weight: 600;
+}

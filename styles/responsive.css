@@ -15,6 +15,11 @@
         width: 60%;
         margin-bottom: 5%;
     }
+
+    .categories-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
 }
 
 /* medium device */
@@ -191,6 +196,20 @@
 
     .video p{
         margin-top: 1%;
+        text-align: center;
+    }
+
+    .categories-container button{
+        padding: 5px 10px;
+    }
+
+}
+
+/* extra small device */
+@media screen and (max-width:375px) {
+    .categories-container {
+        grid-template-columns: 0.7fr;
+        justify-content: center;
         text-align: center;
     }
 }
