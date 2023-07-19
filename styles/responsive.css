@@ -187,9 +187,18 @@
         flex-direction: column;
     }
 
-    .banner-img-container,.gamers-img,.gamers-text{
+    .banner-img-container,.gamers-img,.gamers-text,.online-game-text,.instant-play-text{
         width: 100%;
     }
+
+    .instant-play-text p, .online-game-text p{
+        width: 100%;
+    }
+
+    .instant-play-img-container,.online-game-img-container{
+        width: 80%;
+    }
+
 
     .banner-text{
         width: 60%;
