@@ -7,6 +7,8 @@
 /* common styles */
 body{
     font-family: 'Work Sans', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hot-pink-character{
@@ -14,7 +16,21 @@ body{
 }
 
 .secondary-heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.primary-text{
+    margin: 5% 0%;
+    color:#534C64;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .btn-primary{
@@ -36,11 +52,7 @@ body{
 }
 
 /* navigation bar styles */
-.nav{
-
-}
 .nav-container{
-    max-width: 1440px;
     margin: 0 auto;
     padding: 2% 12.5%;
     display: flex;
@@ -99,7 +111,6 @@ body{
 
 /* banner styles */
 .banner-container{
-    max-width: 1440px;
     margin: 0 auto;
     padding: 0% 12.5%;
     display: flex;
@@ -165,4 +176,41 @@ body{
 
 .banner-img-container img{
     width: 100%;
+}
+
+/* we are gamers style */
+.gamers-container{
+    margin-top: 5%;
+    padding: 0% 12.5%;
+    display: flex;
+    align-items: center;
+}
+
+.gamers-img{
+    width: 60%;
+}
+
+.gamers-img img{
+    width: 100%;
+}
+
+.gamers-text{
+    width: 40%;
+    text-align: right;
+}
+
+.gamers-quote-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.gamers-text h2:last-child{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#534C64;
+}
+
+.gamers-text button{
+    margin-bottom: 5%;
 }

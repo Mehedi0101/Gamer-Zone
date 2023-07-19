@@ -23,6 +23,14 @@
         font-size: 14px;
     }
 
+    .primary-text{
+        line-height: 20px;
+    }
+
+    .secondary-heading{
+        font-size: 2rem;
+    }
+
     .nav-container{
         flex-direction: column;
         margin-top: 3%;
@@ -58,6 +66,21 @@
     .banner-text h1{
         font-size: 3.5rem;
     }
+
+    .gamers-container{
+        flex-direction: column;
+    }
+
+    .gamers-text{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .gamers-img{
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 /* small device */
@@ -78,7 +101,7 @@
         flex-direction: column;
     }
 
-    .banner-img-container{
+    .banner-img-container,.gamers-img,.gamers-text{
         width: 100%;
     }
 
@@ -98,5 +121,6 @@
         padding: 8px 15px;
         font-size: 0.9rem;
     }
+
 
 }
