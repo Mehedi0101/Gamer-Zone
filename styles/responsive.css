@@ -71,7 +71,7 @@
         font-size: 3.5rem;
     }
 
-    .gamers-container,.instant-play-container,.online-game-container{
+    .gamers-container,.instant-play-container,.online-game-container,.career-container{
         flex-direction: column;
     }
 
@@ -79,6 +79,15 @@
         width: 80%;
         margin: 0 auto;
         text-align: center;
+    }
+
+    .career-container{
+        padding: 12.5% 0%;
+    }
+
+    .career-text{
+        width: 80%;
+        margin: 0 auto;
     }
 
     .instant-play-text p{
@@ -90,6 +99,11 @@
     }
 
     .gamers-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .career-img{
         width: 80%;
         margin: 0 auto;
     }
@@ -113,6 +127,7 @@
     .video p{
         margin-top: 1%;
     }
+
 }
 
 /* small device */
