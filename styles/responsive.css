@@ -31,6 +31,10 @@
         font-size: 2rem;
     }
 
+    .heading-dark {
+        font-size: 2rem;
+    }
+
     .nav-container{
         flex-direction: column;
         margin-top: 3%;
@@ -81,6 +85,21 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    .videos-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 10px;
+        align-items: center;
+    }
+
+    .video{
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    .video p{
+        margin-top: 1%;
+    }
 }
 
 /* small device */
@@ -122,5 +141,28 @@
         font-size: 0.9rem;
     }
 
+    .funny-videos-container{
+        margin-top: 20%;
+    }
 
+    .funny-videos-container > p{
+        margin: 1% 0% 10%;
+    }
+
+    .videos-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px 0px;
+        align-items: center;
+    }
+
+    .video{
+        width: 90%;
+        align-self: flex-start;
+        justify-self: center;
+    }
+
+    .video p{
+        margin-top: 1%;
+        text-align: center;
+    }
 }

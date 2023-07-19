@@ -26,7 +26,6 @@ body{
 }
 
 .primary-text{
-    margin: 5% 0%;
     color:#534C64;
     font-size: 0.9rem;
     font-weight: 400;
@@ -49,6 +48,12 @@ body{
     color: #FF42A5;
     border: 2px solid #FF42A5;
     cursor: pointer;
+}
+
+.heading-dark {
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 /* navigation bar styles */
@@ -205,6 +210,10 @@ body{
     color: #534C64;
 }
 
+.gamers-text p{
+    margin: 5% 0%;
+}
+
 .gamers-text h2:last-child{
     font-size: 1.5rem;
     font-weight: 700;
@@ -213,4 +222,63 @@ body{
 
 .gamers-text button{
     margin-bottom: 5%;
+}
+
+/* funny videos style */
+.funny-videos-container{
+    margin: 10% 0%;
+    padding: 0 12.5%;
+    text-align: center;
+}
+
+.funny-videos-container > p{
+    margin: 1% 0% 4%;
+}
+
+.videos-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+}
+
+.play-icon{
+    display: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ff47a1;
+    border-radius: 5%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
+
+.play-icon img{
+    width: 10%;
+}
+
+
+.preview{
+    position: relative;
+}
+
+.videos-container .preview:hover .play-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.videos-container img{
+    width: 100%;
+}
+
+.videos-container p{
+    margin-top: 5%;
+    text-align: left;
+    font-weight: 500;
+    line-height: 22px;
 }
